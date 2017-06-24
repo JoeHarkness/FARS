@@ -11,4 +11,4 @@ LazyData: true
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
-Depends: maps testthat
+Depends: maps, testthat
