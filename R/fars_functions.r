@@ -111,7 +111,6 @@ fars_summarize_years <- function(years) {
 #'
 #' @export
 
-library(maps)
 fars_map_state <- function(state.num, year) {
         filename <- make_filename(year)
         data <- fars_read(filename)
