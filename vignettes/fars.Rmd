@@ -1,0 +1,24 @@
+---
+title: "FARS data functions"
+author: "Joe Harkness"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{FARS data functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Introduction
+
+The FARS package consists of functions for reading and manipulating data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System (FARS), which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.  
+
+## Functions
+
+The package contains the following functions:
+
+* *fars_read* : Reads the FARS data in csv format into a dataframe
+* *make_filename* : Returns a FARS data filename for a specific year
+* *fars_read_years* : Creates a dataframe from FARS data from multiple years
+* *fars_summarize_years* : Creates a dataframe summarizing the number of observations by in FARS data from multiple years
+* *fars_map_state* : Creates a map of accident locations for a given state and year
